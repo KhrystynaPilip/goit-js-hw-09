@@ -1,0 +1,84 @@
+/* Основні стилі форми */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+  }
+  
+  /* Стили для полів вводу */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Стан normal */
+  form input[type="email"]:not(:hover):not(:focus),
+  form textarea:not(:hover):not(:focus) {
+    border-color: #ccc;
+  }
+  
+  /* Стан hover */
+  form input[type="email"]:hover,
+  form textarea:hover {
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стан active (focus) */
+  form input[type="email"]:focus,
+  form textarea:focus {
+    border-color: #0056ff;
+    box-shadow: 0 0 8px rgba(0, 86, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Кнопка відправки */
+  form button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0056ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+   
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  /* Стан кнопки normal */
+  form button:not(:hover) {
+    background-color: #0056ff;
+  }
+  
+  /* Стан hover */
+  form button:hover {
+    background-color: #0046cc;
+    box-shadow: 0 4px 6px rgba(0, 70, 204, 0.3);
+  }
+  
+  /* Вирівнювання тексту всередині */
+  form textarea {
+    resize: none;
+  }
+  
