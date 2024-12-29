@@ -26,7 +26,3 @@
   .gallery-image:hover {
     transform: scale(1.05);
   }
-
-  .basicLightbox {
-    background-color: rgba(46, 47, 66, 0.8);
-  }
